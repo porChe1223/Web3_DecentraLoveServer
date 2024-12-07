@@ -1,0 +1,8 @@
+services:
+  api:
+    container_name: "decentra-love-server-container"
+    volumes:
+      - ./app:/code/app
+    build: .
+    ports:
+      - 8080:80

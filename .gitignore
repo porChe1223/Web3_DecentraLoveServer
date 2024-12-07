@@ -1,0 +1,6 @@
+app/__pycache__/*
+venv/*
+app/upload/*
+app/results/*
+.env
+parts/*
